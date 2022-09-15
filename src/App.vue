@@ -11,7 +11,16 @@ export default {
 </script>
 
 <style lang="scss">
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  min-height: 100%;
+}
 #app {
+  min-height: 100%;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,5 +28,6 @@ export default {
   background: #c3faf0;
   color: #2c3e50;
   padding-top: 25px;
+  padding-bottom: 25px;
 }
 </style>
